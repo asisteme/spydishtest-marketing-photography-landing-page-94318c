@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  @apply m-0 p-0 font-sans bg-brandBg text-brandFigure scroll-smooth;
+}
+
+.btn-primary {
+  @apply inline-block rounded-lg bg-brandPrimary px-6 py-3 text-white font-semibold transition-transform duration-200 hover:-translate-y-1 hover:bg-accent;
+}
